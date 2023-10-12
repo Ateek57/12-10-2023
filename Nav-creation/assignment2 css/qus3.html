@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        ul {
+            background-color: rgb(111, 111, 243);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            list-style-type: none;
+
+        }
+        li {
+            text-align: center;
+            flex: 1;
+            
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+        li:nth-child(1) a {
+            border: 2px solid red;
+        }
+        li:nth-child(2) a {
+            border: 3px dashed black;
+        }
+        li:nth-child(3) a {
+            border:2px dotted yellow;
+        }
+        li:nth-child(4) a {
+            border: 2px double orangered;
+        }
+        li:nth-child(5) a {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About-Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+   
+</body>
+</html>

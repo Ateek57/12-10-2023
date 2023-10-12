@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-website</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: aquamarine;
+            width: 100vw;
+            height: 100vh;
+        }
+        nav {
+            height: 80px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        li {
+            flex: 1;
+        }
+        
+           a {
+            text-decoration: none;
+            color: black;
+            
+        }
+        #item {
+            list-style-type: none;
+            display: flex;
+            gap: 50px;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: 400;
+
+        }
+
+        h1 {
+            padding-top: 30px;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+        }
+        img {
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <nav>
+            <div class="title">Web-Dev</div>
+            <div>
+                <ul id="item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About_Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Welcome to Font-Blog</h1>
+        <div>
+            <img src="font-family img.png" alt="font-family" width="600px" height="400px">
+            <p style="padding: 40px;">Young Serif is a heavy weight old style serif typeface, taking inspiration from Plantin Infant or ITC Italian Old Style. The lowercase b and f feature rounded curves, adding a tender and generous quality to this font.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
